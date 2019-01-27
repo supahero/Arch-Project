@@ -4,7 +4,6 @@ from flask import request, jsonify
 import json, requests, re
 import parser
 
-#from apscheduler.schedulers.background import BackgroundScheduler
 
 app = Flask(__name__)
 

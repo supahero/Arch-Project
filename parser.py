@@ -1,5 +1,4 @@
 import requests, re
-from apscheduler.schedulers.background import BackgroundScheduler
 
 names = ['CXBW.TXT', 'VEBD.TXT', 'KJKL.TXT', 'KPXE.TXT', 'CYKO.TXT', 'KGWB.TXT', 'ENHK.TXT', 'CWVQ.TXT', 'KSAZ.TXT',
          'EGGD.TXT', 'FOOG.TXT',
