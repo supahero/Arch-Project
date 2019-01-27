@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ArchProject-V9</title>
+    <link rel="stylesheet" href="static/css/mini-style.css">
+    <link rel="stylesheet" href="static/css/copyleft.css">
+    <link href="static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="static/css/listbox.css">
+    <script src="static/js/listbox.js"></script>
+    <script src="static/js/listbox-scrollable.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="section">
+    <div class="container content">
+        <h1 class="title"> Arch-Project v.1.0 </h1>
+        <p>Vadim Kropotin, HCI, HSE, 2018</p>
+        <p>Course project for taking and presenting airports info</p>
+    </div>
+     <div class="container">
+        <ol>
+            <li><a href="../static/README.md" download>Readme</a></li>
+            <li><a href="http://tgftp.nws.noaa.gov/data/observations/metar/decoded/" target="_blank">
+                Data source
+            </a></li>
+            <li><a href="https://github.com/supahero/Arch-Project" target="_blank">Repo</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<p align="center">To retrieve information please select METAR code. Note, report generation takes time.</p>
+<div class="listbox-area">
+    <div class="left-area">
+                <span id="ss_elem">
+                    METAR Codes
+                </span>
+        <div class="list" onclick="reply_click(event)">
+            <ul id="ss_elem_list"
+                tabindex="0"
+                role="listbox"
+                aria-labelledby="ss_elem_options">
+                <li id="0" role="option">
+                    <script type="text/javascript" src="static/js/doWork.js"></script>
+                    CXBW - Barnwell Agdm, ALTA, Canada
+                </li>
+                <li id="1" role="option">
+                    <script type="text/javascript" src="static/js/doWork.js"></script>
+                    VEBD - Siliguri, India
+                </li>
+                <li id="2" role="option">
+                    <script type="text/javascript" src="static/js/doWork.js"></script>
+                    KJKL - Jackson Carroll Airport, KY, United States
+                </li>
+                <li id="3" role="option">
+                    <script type="text/javascript" src="static/js/doWork.js"></script>
+                    KPXE - Perry Houston CN, GA, United States
+                </li>
+                <li id="4" role="option">
+                    CYKO - Akulivik Airport, Canada
+                </li>
+                <li id="5" role="option">
+                    KGWB - Fort Drum/Wheele, NY, United States
+                </li>
+                <li id="6" role="option">
+                    ENHK - Hasvik, Norway
+                </li>
+                <li id="7" role="option">
+                    CWVQ - Ste Anne De Bell 1, Canada
+                </li>
+                <li id="8" role="option">
+                    KSAZ - Staples, Staples Municipal Airport, MN, United States
+                </li>
+                <li id="9" role="option">
+                    EGGD - Bristol / Lulsgate , United Kingdom
+                </li>
+                <li id="10" role="option">
+                    FOOG - Port-Gentil, Gabon
+                </li>
+                <li id="11" role="option">
+                    KQDM - Orgun E, Afghanistan
+                </li>
+                <li id="12" role="option">
+                    KHNR - Harlan, Harlan Municipal Airport, IA, United States
+                </li>
+                <li id="13" role="option">
+                    LKVO - Vodochody Airport, Czech Republic
+                </li>
+                <li id="14" role="option">
+                    LJPZ - Portoroz, Slovenia
+                </li>
+                <li id="15" role="option">
+                    KBPI - Big Piney-Marbleton Airport, WY, United States
+                </li>
+                <li id="16" role="option">
+                    SBPC - Pocos De Caldas, Brazil
+                </li>
+                <li id="17" role="option">
+                    SBSG - Natal, Rio Grande do Norte, Brasil
+                </li>
+                <li id="18" role="option">
+                    SBCC - Cachimbo, Brazil
+                </li>
+                <li id="19" role="option">
+                    KPRB - Paso Robles Airport, CA, United States
+                </li>
+                <li id="20" role="option">
+                    KSAW - Marquette, Sawyer International Airport, MI, United States
+                </li>
+                <li id="21" role="option">
+                    URMT - Stavropol / Shpakovskoye, Russia
+                </li>
+                <li id="22" role="option">
+                    KRWF - Redwwod Falls Municipal, MN, United States
+                </li>
+                <li id="23" role="option">
+                    K7BM - Cottonwood Pass, CO, United States
+                </li>
+                <li id="24" role="option">
+                    KEKO - Elko Regional Airport, NV, United States
+                </li>
+                <li id="25" role="option">
+                    SBBI - Curitiba, Brazil
+                </li>
+                <li id="26" role="option">
+                    KVQQ - Jacksonville, Cecil Field Airport, FL, United States
+                </li>
+                <li id="27" role="option">
+                    KMFD - Lahm Municipal Airport, OH, United States
+                </li>
+                <li id="28" role="option">
+                    KMTN - Baltimore / Martin, MD, United States
+                </li>
+                <li id="29" role="option">
+                    K79J - Opp/Andalusia, AL, United States
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="right-area">
+        <div id="response"></div>
+    </div>
+</div>
+
+<div class="container">
+    <p>Copyleft <span class="copyleft">&copy;</span> Vadim Kropotin. Designed by <a
+            href="https://github.com/supahero" target="_blank" rel="nofollow">Vadim Kropotin</a></p>
+    <p>Using W3C resources</p>
+</div>
+</body>
+</html>
